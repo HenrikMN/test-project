@@ -55,7 +55,8 @@ const people = [
 
 export default function List() {
   return (
-    <ul role="list" className="divide-y divide-gray-100" >
+    <div className="p-8">
+    <ul role="list" className="divide-y divide-gray-100 bg-white pl-8 pr-8 rounded-lg" >
       {people.map((person) => (
         <li key={person.email} className="flex justify-between gap-x-6 py-5">
           <div className="flex min-w-0 gap-x-4">
@@ -94,5 +95,6 @@ export default function List() {
         </li>
       ))}
     </ul>
+    </div>
   );
 }
