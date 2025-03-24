@@ -1,6 +1,6 @@
 export default function Index() {
   return (
-    <>
+    <>{/*
       <nav className="flex justify-center space-x-4">
         <a
           href="/dashboard"
@@ -22,7 +22,7 @@ export default function Index() {
         </a>
         <a
           href="/reports"
-          className="font-bold px-3 py-2 text-indigo-700 rounded-lg bg-indigo-50 hover:bg-indigo-100 hover:text-indigo-900"
+          className="font-bold px-3 py-2 text-indigo-700 rounded-lg bg-indigo hover:bg-indigo-100 hover:text-indigo-900"
         >
           Reports
         </a>
@@ -99,7 +99,7 @@ export default function Index() {
             + 198 others
           </a>
         </div>
-      </div>
+      </div>*/}
     </>
   );
 }
