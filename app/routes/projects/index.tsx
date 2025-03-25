@@ -37,9 +37,17 @@ export default function team() {
                 </h2>
                 <p className="text-gray-500">Bokapplikasjon</p>
               </div>
+              <div>
+                <a
+                  className="mt-3 ml-3 text-sm font-semibold text-blue-600"
+                  href="https://adrian-kodehode.github.io/gutendex/"
+                >
+                  View Project
+                </a>
+              </div>
             </div>
           </>
-          <div className="flex justify-center items-center min-h-screen bg-gray-100">
+          <div className="flex justify-center items-center min-h-50  bg-gray-100">
             <img
               src="./public/skjermbilde 2025-03-25 131723.png"
               alt=""
