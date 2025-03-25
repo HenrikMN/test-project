@@ -8,11 +8,11 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
-import ChatCard from "./routes/components/ChatCard";
-import Header from "./routes/components/Header";
-import Buttons from "./routes/components/Buttons";
-import Contributors from "./routes/components/Contributors";
-import  List  from "./routes/components/List";
+import ChatCard from "./components/ChatCard";
+import Header from "./components/Header";
+import Buttons from "./components/Buttons";
+import Contributors from "./components/Contributors";
+import  List  from "./components/List";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -39,10 +39,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Header />
         {children}
-        <ChatCard />
+        {/* <ChatCard />
         <List />
-        {/* <Buttons /> */}
-        <Contributors />
+        <Buttons /> 
+        <Contributors />*/}
         <ScrollRestoration />
         <Scripts />
       </body>

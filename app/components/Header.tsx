@@ -1,9 +1,10 @@
 export default function Header() {
   return (
     <>
+      <div className="pt-4 pb-4 bg-gray-10">
       <nav className="flex justify-center space-x-4">
         <a
-          href="/dashboard"
+          href="/home"
           className="font-bold px-3 py-2 text-purple-700 bg-purple-50 rounded-lg hover:bg-purple-100 hover:text-purple-900"
         >
           Home
@@ -27,7 +28,7 @@ export default function Header() {
           Reports
         </a>
       </nav> 
-      <br />
+      </div>
     </>
   );
 }
