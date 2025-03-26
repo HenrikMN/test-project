@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function team() {
+export default function projects() {
   const [isLarge, setIsLarge] = useState(false);
 
   const handleImageClick = () => {
